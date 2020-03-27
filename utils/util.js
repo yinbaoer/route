@@ -14,6 +14,17 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+const toast = title => {
+  wx.showToast({
+    title: title,
+    icon: 'none'
+  })
+}
+
+var polyline = []
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  toast: toast,
+  polyline
 }

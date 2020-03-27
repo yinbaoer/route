@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class="box">
   <block wx:for="{{localList}}" wx:key="{{item}}">
-    <view>
-      {{item.time}}
+    <view bindtap="detailRoad" data-detail="{{item.list}}">
+      {{item.starttime}}——{{item.endtime}}
     </view>
   </block>
 </view>
