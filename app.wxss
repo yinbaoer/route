@@ -1,0 +1,56 @@
+/**app.wxss**/
+.box {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* 字体大小 */
+.fz20 {
+  font-size: 20rpx;
+}
+
+.fz24 {
+  font-size: 24rpx;
+}
+
+.fz30 {
+  font-size: 30rpx;
+}
+
+.fz36 {
+  font-size: 36rpx;
+}
+
+.fz40 {
+  font-size: 40rpx;
+}
+
+/* 文字颜色 */
+.fc-main {
+  color: #1296db;
+}
+
+.fc-f {
+  color: #fff;
+}
+
+/* flex布局 */
+.wx-f {
+  display: flex;
+}
+
+.wx-f-ac {
+  align-items: center;
+}
+
+.wx-f-jc {
+  justify-content: center;
+}
+
+.wx-f-jsb {
+  justify-content: space-between;
+}
+
+.wx-f-jsa {
+  justify-content: space-around;
+}

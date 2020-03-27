@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view>
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="18"	markers="{{markers}}" polyline="{{polyline}}" show-location show-compass style="width: 100vw; height: 90vh"></map>
+  <view class="btns wx-f wx-f-ac wx-f-jsa">
+    <view class="btn wx-f wx-f-jc wx-f-ac fc-f" bindtap="start">开始</view>
+    <view class="btn wx-f wx-f-jc wx-f-ac fc-f" bindtap="end">结束</view>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list"
+  ],
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "运行轨迹",
+      "iconPath": "static/tabBar/route.png",
+      "selectedIconPath": "static/tabBar/route(1).png"
+    }, {
+      "pagePath": "pages/list/list",
+      "text": "轨迹列表",
+      "iconPath": "static/tabBar/list.png",
+      "selectedIconPath": "static/tabBar/list(1).png"
+    }]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "运动轨迹",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#1296db"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

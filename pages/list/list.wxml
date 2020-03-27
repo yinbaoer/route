@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="box">
+  <block wx:for="{{localList}}" wx:key="{{item}}">
+    <view>
+      {{item.time}}
+    </view>
+  </block>
+</view>
