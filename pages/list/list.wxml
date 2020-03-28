@@ -1,8 +1,14 @@
 <!--index.wxml-->
-<view class="box">
-  <block wx:for="{{localList}}" wx:key="{{item}}">
-    <view bindtap="detailRoad" data-detail="{{item.list}}">
-      {{item.starttime}}——{{item.endtime}}
-    </view>
+<view class="box {{!localList.length ? 'wx-f wx-f-ac wx-f-jc': ''}}">
+  <block wx:if="{{!localList.length}}">
+    <view>没有任何记录</view>
+  </block>
+  <block wx:else>
+    <block wx:for="{{localList}}" wx:key="{{item.starttime.time}}">
+      <view>{{item.starttime.date}}</view>
+      <view bindtap="detailRoad" data-detail="{{item.list}}">
+        {{item.starttime.time}}——{{item.endtime.time}}
+      </view>
+    </block>
   </block>
 </view>
